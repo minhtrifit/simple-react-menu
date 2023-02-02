@@ -1,0 +1,22 @@
+.contact {
+    width: calc(100% - 250px);
+    min-height: 120vh;
+    margin-left: 250px;
+    background-color: #D6E4E5;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+        margin-left: 0;
+    }
+}
